@@ -87,9 +87,9 @@ function galleryMarkup(arr) {
 function handleClick(event) {
   console.log(event.target);
 
-  // event.preventDefault();
+  event.preventDefault();
 
-  if (!event.target.classList.contains('.gallery-item')) {
+  if (!event.target.classList.contains('gallery-item')) {
     return;
   }
 
